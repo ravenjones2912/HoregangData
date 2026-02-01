@@ -1,0 +1,70 @@
+{
+  "people": [
+    {
+      "id": "p1769960901957",
+      "name": "testsim1",
+      "portrait": null,
+      "lifestage": "Adult",
+      "tags": [],
+      "traits": [],
+      "bio": "",
+      "events": []
+    },
+    {
+      "id": "p1769960919850",
+      "name": "testsim2",
+      "portrait": null,
+      "lifestage": "Adult",
+      "tags": [],
+      "traits": [],
+      "bio": "",
+      "events": []
+    },
+    {
+      "id": "p1769960938757",
+      "name": "Testsim3",
+      "portrait": null,
+      "lifestage": "Adult",
+      "tags": [],
+      "traits": [],
+      "bio": "",
+      "events": []
+    }
+  ],
+  "relationships": [
+    {
+      "type": "partner",
+      "from": "p1769960919850",
+      "to": "p1769960901957",
+      "status": "dating"
+    },
+    {
+      "type": "parent",
+      "from": "p1769960901957",
+      "to": "p1769960938757",
+      "kind": "biological"
+    },
+    {
+      "type": "parent",
+      "from": "p1769960919850",
+      "to": "p1769960938757",
+      "kind": "biological"
+    }
+  ],
+  "layout": {
+    "positions": {
+      "p1769960901957": {
+        "x": 427,
+        "y": 252
+      },
+      "p1769960919850": {
+        "x": 729,
+        "y": 253
+      },
+      "p1769960938757": {
+        "x": 573,
+        "y": 461
+      }
+    }
+  }
+}
